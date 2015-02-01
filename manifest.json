@@ -1,0 +1,12 @@
+{
+    "name": "MH Football",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Crafting",
+    "content_scripts": [
+        {
+            "matches": ["https://www.mousehuntgame.com/football.php", "http://www.mousehuntgame.com/football.php"],
+            "js": ["content.js"]
+        }
+    ]
+}
